@@ -1,0 +1,88 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;               /* Adds padding for better spacing */
+  flex: 1;                     /* Allows header to grow and take up available space */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: #fcf8f8;
+}
+
+.App-link {
+  color: #b6fd0ff3;
+}
+
+
+/* New Branding Styles */
+.header__top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;  /* Aligns the branding to the left */
+  align-items: center;          /* Centers vertically */
+  margin-bottom: 20px;         /* Adds space below the header branding */
+}
+
+.branding__logo-wrap {
+  display: flex;               /* Enables flexbox for logo wrap */
+  align-items: left;         /* Centers logo vertically */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer Styles */
+.App-footer {
+  background-color: #20232a;  /* Matches header background */
+  padding: 20px;              /* Adds some space around text */
+  color: white;               /* Text color for readability */
+  position: fixed;            /* Keeps the footer at the bottom of the screen */
+  width: 100%;                /* Footer takes up the full width */
+  bottom: 0;                  /* Fixes footer to the bottom */
+  text-align: center;         /* Centers the text */
+  border-top: 2px solid #4bf806; /* Adds a border to separate footer visually */
+  position: relative; /* Changed from fixed to relative to allow scrolling */
+}
+
+.App-footer p {
+  margin: 5px 0;  /* Adds spacing between lines */
+}
+
+.App-footer a {
+  color: #61dafb;  /* Matches the link color with app theme */
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  text-decoration: underline; /* Adds underline on hover for better UI */
+}
+/* Built By Styles */
+.App-built-by {
+  font-size: 14px;
+  color: #ccc; /* Light gray color for "Built by" text */
+  margin-top: 10px;  /* Adds space between other footer content */
+}
