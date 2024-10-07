@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AndrewsJascoro/sensor-management-veolia-platform/static/css/main.11f164e1.css",
-    "main.js": "/AndrewsJascoro/sensor-management-veolia-platform/static/js/main.5680d02a.js",
-    "static/media/logo_Veolia.svg": "/AndrewsJascoro/sensor-management-veolia-platform/static/media/logo_Veolia.bbad0b9e035149d875e7fefad5e4277c.svg",
-    "index.html": "/AndrewsJascoro/sensor-management-veolia-platform/index.html",
-    "main.11f164e1.css.map": "/AndrewsJascoro/sensor-management-veolia-platform/static/css/main.11f164e1.css.map",
-    "main.5680d02a.js.map": "/AndrewsJascoro/sensor-management-veolia-platform/static/js/main.5680d02a.js.map"
+    "main.css": "/sensor-management-veolia-platform/static/css/main.11f164e1.css",
+    "main.js": "/sensor-management-veolia-platform/static/js/main.f2afd5f7.js",
+    "static/media/logo_Veolia.svg": "/sensor-management-veolia-platform/static/media/logo_Veolia.bbad0b9e035149d875e7fefad5e4277c.svg",
+    "index.html": "/sensor-management-veolia-platform/index.html",
+    "main.11f164e1.css.map": "/sensor-management-veolia-platform/static/css/main.11f164e1.css.map",
+    "main.f2afd5f7.js.map": "/sensor-management-veolia-platform/static/js/main.f2afd5f7.js.map"
   },
   "entrypoints": [
     "static/css/main.11f164e1.css",
-    "static/js/main.5680d02a.js"
+    "static/js/main.f2afd5f7.js"
   ]
 }
