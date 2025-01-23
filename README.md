@@ -4,3 +4,6 @@ Remote sensor monitoring is optimized with AI to save time <code><br />  on sust
         waste and energy management </code><br />  with analytically intelligent responses to achieve your goals.
 
 Veolia designs and deploys decarbonizing, saving and regenerating resources, and depolluting solutions for its municipal and industrial customers which contributes to turn the tide.
+
+Note: 
+This is a test project, it is not final development for production or work, these are the possibilities that can be developed with this type of project.
